@@ -89,6 +89,17 @@ source venv/bin/activate
 pip install "crawl4ai @ git+https://github.com/unclecode/crawl4ai.git"
 ```
 
+## Windows User
+
+```bash
+python -m venv venv
+.\venv\Scripts\Activate
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Default -Scope CurrentUser
+pip install -r requirements.txt
+pip install -r requirements.crawl.txt
+```
+
 ### Using Docker 🐳
 
 ```bash

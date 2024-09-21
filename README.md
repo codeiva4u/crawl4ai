@@ -93,10 +93,21 @@ pip install "crawl4ai @ git+https://github.com/unclecode/crawl4ai.git"
 
 ```bash
 python -m venv venv
+```
+```
 .\venv\Scripts\Activate
+```
+```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+```
+```
 Set-ExecutionPolicy -ExecutionPolicy Default -Scope CurrentUser
+```
+```
 pip install -r requirements.txt
+```
+
+```
 pip install -r requirements.crawl.txt
 ```
 

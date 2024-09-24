@@ -104,6 +104,9 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 Set-ExecutionPolicy -ExecutionPolicy Default -Scope CurrentUser
 ```
 ```
+pip install "crawl4ai @ git+https://github.com/unclecode/crawl4ai.git"
+```
+```
 pip install -r requirements.txt
 ```
 

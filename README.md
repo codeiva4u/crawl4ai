@@ -80,11 +80,6 @@ result = crawler.run(url="https://www.nbcnews.com/business")
 print(result.markdown)
 ```
 
-## Run This Command 
-```
-uvicorn main:app --host 0.0.0.0 --port 80 --workers 4
-```
-
 ## How to install 🛠 
 
 ### Using pip 🐍
@@ -114,6 +109,10 @@ pip install -r requirements.txt
 
 ```
 pip install -r requirements.crawl.txt
+```
+## Run This Command 
+```
+uvicorn main:app --host 0.0.0.0 --port 80 --workers 4
 ```
 
 ### Using Docker 🐳
